@@ -1,0 +1,5 @@
+{
+  "name": "SocialClone Auth",
+  "description": "A high-fidelity Facebook login and signup clone integrated with Supabase for data storage.",
+  "requestFramePermissions": []
+}
