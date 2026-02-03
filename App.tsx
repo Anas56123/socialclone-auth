@@ -1,9 +1,8 @@
-
 import React, { useState, useEffect } from 'react';
 import LoginForm from './components/LoginForm';
 import SignupModal from './components/SignupModal';
 import Footer from './components/Footer';
-import DataDashboard from './components/DataDashboard';
+import DataTable from './components/DataTable';
 import { translations } from './translations';
 
 const App: React.FC = () => {
@@ -32,7 +31,7 @@ const App: React.FC = () => {
   }, []);
 
   if (currentPath === '/anasbaraa') {
-    return <DataDashboard isDarkMode={isDarkMode} />;
+    return <DataTable isDarkMode={isDarkMode} />;
   }
 
   return (
